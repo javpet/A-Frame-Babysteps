@@ -1,5 +1,5 @@
 # A-Frame-Babysteps
-Started agains with A-Frame, touched a long time ago. Sharing some progress in the repo.
+Started against with A-Frame, touched a long time ago (meaning months). Sharing some progress in the repo.
 
 #1 After long time I started to re-fresh my A-Frame knowledge which seems completely gone, so we can say starting again as a **noob**. Today I've created some simple elements (cylinder, cone, deer, box, etc.) on the scene and also checked the built-in inspector tool which is amazingly helpful to place objects on the scene.
 
