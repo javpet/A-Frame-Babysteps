@@ -1,0 +1,24 @@
+<html>
+  <head>
+    <script src="https://aframe.io/releases/0.7.0/aframe.min.js"></script>
+  </head>
+  <body>
+    <a-scene>
+        <a-assets>
+            <img id="texture" src="black.jpg">
+            <a-asset-item id="deer" src="deer.dae"></a-asset-item>
+        </a-assets>
+        <a-box src="#texture" position="0 1 0"></a-box>
+        <a-circle color="red" radius="5" position="20 0 0"></a-circle>
+        <a-collada-model src="deer.dae" position="10 0 0" color="brown"></a-collada-model>
+        <a-cone color="yellow" position="10 0 10" radius-bottom="2" radius-top="0" height="4"></a-cone>
+        <a-cylinder color="crimson" height="3" radius="2" position="-10 1 0"></a-cylinder>
+        <a-plane color="#616364" height="100" width="100" rotation="-90 0 0" src="grass.jpg"></a-plane>
+        <a-sky src="sky.jpg"></a-sky>
+        <a-camera>
+            <a-cursor></a-cursor>
+            <!-- Default value of fuse timeout, until the cursor waits for the action to click is 1500ms -->
+        </a-camera>
+    </a-scene>
+  </body>
+</html>
